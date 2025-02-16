@@ -35,12 +35,20 @@ ALLOWED_HOSTS = [
     "http://localhost:4200",
     "http://localhost:57639",
     'http://127.0.0.1::57639',
+    'http://34.32.235.111',
+    'https://34.32.235.111',
+    'http://34.32.235.111:800',
+    'https://34.32.235.111:800',
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",      # Standard Angular-Port
     "http://localhost:57639",     # Dein aktueller Port
     "http://127.0.0.1:8000",
+    'https://34.32.235.111:800',
+    'http://34.32.235.111',
+    'https://34.32.235.111',
+    'http://34.32.235.111:800',
 ]
 # Application definition
 
