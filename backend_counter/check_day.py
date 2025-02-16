@@ -9,7 +9,7 @@ class PerformActionView(APIView):
         today = datetime.today().date()
         
         # Überprüfen, ob heute der 20. ist
-        if today.day == 20:
+        if today.day == 16:
             # Überprüfen, ob der Wert bereits für diesen Monat erhöht wurde
             # Angenommen, wir speichern ein `created_at`-Feld für jedes `AlreadyPaid`-Objekt
             latest_payment = AlreadyPaid.objects.filter(created_at__month=today.month).first()

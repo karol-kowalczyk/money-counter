@@ -72,6 +72,12 @@ MIDDLEWARE = [
 
 CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
 
+CORS_ALLOW_HEADERS = [
+    "content-type",
+    "authorization",
+    "x-requested-with",
+]
+
 ROOT_URLCONF = 'da_money_counter.urls'
 
 TEMPLATES = [
