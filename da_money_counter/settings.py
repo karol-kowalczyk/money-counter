@@ -26,21 +26,14 @@ SECRET_KEY = 'django-insecure-0_m1$mczt2a7t^lsh$f4f!&gv=$!wyh&nct8sdg*bk%wif)k3c
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'http://127.0.0.1:5500',
-    'http://localhost:5500',
-    'http://127.0.0.1:8000',
     '127.0.0.1',
-    'http://localhost:57639/',
-    'http://127.0.0.1::57639:',
-    "http://localhost:4200",
-    "http://localhost:57639",
-    'http://127.0.0.1::57639',
+    'localhost',
+    '34.32.235.111',
     'http://34.32.235.111',
     'https://34.32.235.111',
-    '34.32.235.111',
     'http://34.32.235.111:800',
     'https://34.32.235.111:800',
-]
+]  # Achte darauf, dass jede Zeile ein Komma hat!
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",      # Standard Angular-Port
@@ -77,10 +70,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_METHODS = [
-    'GET',
-    'OPTIONS',
-]
+CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
 
 ROOT_URLCONF = 'da_money_counter.urls'
 
