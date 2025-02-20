@@ -37,7 +37,7 @@ ALLOWED_HOSTS = [
     'https://karol-kowalczyk.de/',
     'https://money-counter.karol-kowalczyk.de/',
     'https://34.32.235.111:800',
-    'https://money-counter-backend.kowal-it-service.de'
+    'https://money-counter-backend.kowal-it-service.de/'
 ]  # Achte darauf, dass jede Zeile ein Komma hat!
 
 CORS_ALLOWED_ORIGINS = [
@@ -49,7 +49,7 @@ CORS_ALLOWED_ORIGINS = [
     'https://34.32.235.111',
     'https://money-counter.karol-kowalczyk.de/',
     'http://34.32.235.111:800',
-    'https://money-counter-backend.kowal-it-service.de'
+    'https://money-counter-backend.kowal-it-service.de/'
 ]
 # Application definition
 
