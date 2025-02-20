@@ -35,7 +35,6 @@ ALLOWED_HOSTS = [
     'https://34.32.235.111',
     'http://34.32.235.111:800',
     'https://karol-kowalczyk.de/',
-    'https://money-counter.karol-kowalczyk.de/',
     'https://34.32.235.111:800',
     'money-counter-backend.kowal-it-service.de',
 ]  # Achte darauf, dass jede Zeile ein Komma hat!
