@@ -32,7 +32,8 @@ ALLOWED_HOSTS = [
     'money-counter-backend.kowal-it-service.de',
     'money-counter.karol-kowalczyk.de',
     'karol-kowalczyk.de',
-]
+    '34.147.10.177'
+,]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",      # Standard Angular-Port
