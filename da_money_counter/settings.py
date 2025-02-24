@@ -45,6 +45,8 @@ CORS_ALLOWED_ORIGINS = [
     "https://money-counter-backend.kowal-it-service.de"
 ]
 
+
+
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
